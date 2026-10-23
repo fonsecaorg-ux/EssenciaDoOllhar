@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="gold" x1="120" y1="150" x2="400" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e7cf9b" />
+      <stop offset="0.55" stop-color="#c5a15c" />
+      <stop offset="1" stop-color="#a9873f" />
+    </linearGradient>
+    <radialGradient id="blush" cx="0.5" cy="0.5" r="0.5">
+      <stop stop-color="#e9c7c0" stop-opacity="0.55" />
+      <stop offset="1" stop-color="#e9c7c0" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#9b8a7b" />
+  <ellipse cx="270" cy="310" rx="150" ry="80" fill="url(#blush)" />
+  <g stroke="url(#gold)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M96 250c52-58 142-74 218-48 34 12 58 30 72 48" />
+    <path d="M132 238c50-42 128-52 192-32 24 8 42 20 54 32" opacity="0.8" />
+    <path d="M166 228c40-28 98-34 146-20" opacity="0.55" />
+    <path d="M158 312c40-34 156-34 196 0-40 34-156 34-196 0Z" stroke-width="10" />
+    <circle cx="256" cy="312" r="32" />
+    <path d="M256 288c18 0 26 16 18 26-8 10-24 4-24-6 0-6 6-10 12-10" stroke-width="7" />
+    <path d="M180 296l-10-14M208 280l-6-16M238 272l-2-16M256 268v-16M280 272l4-16M310 282l8-16M338 296l12-12" stroke-width="7" />
+  </g>
+</svg>
